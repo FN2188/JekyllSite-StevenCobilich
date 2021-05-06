@@ -1,0 +1,17 @@
+---
+title: Works
+layout: default
+photos:
+- alt: Github octopus cat thing
+  src: /images/404.jpg
+- alt: Atlantic Records Showcase - FOH
+  src: /images/Atlantic.jpeg
+- alt: One of Steven's works
+  src: https://via.placeholder.com/320
+---
+
+<section class="works container">
+  {% for img in page.photos %}
+    <img src="{{img.src}}" alt="{{img.alt}}">
+  {% endfor %}
+</section>

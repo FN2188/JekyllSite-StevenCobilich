@@ -1,18 +1,19 @@
 ---
 layout: default
 skills:
-  - Computer hacking
-  - Bike jumping
-  - Bow hunting
-  - Nunchuk
+- Computer hacking
+- Bike jumping
+- Bow hunting
+- Nunchuk
 ---
 
 <div class="image-strip"></div>
 
-<section class="skills">
+<section class="skills container">
+  <h2>Primary Skills</h2>
   <ul>
-    {% for bob in page.skills %}
-      <li>{{ bob }}</li>
+    {% for skill in page.skills %}
+      <li><span class="skill">{{ skill }}</span></li>
     {% endfor %}
   </ul>
 </section>

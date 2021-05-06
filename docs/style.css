@@ -1,0 +1,143 @@
+/***************/
+/* MEYER RESET */
+/***************/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400&family=Poppins:wght@600&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+/*16px*/
+body {
+  background: black;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.45;
+  color: white;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 3rem 0 1.38rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 11.089rem;
+}
+
+h2 {
+  font-size: 6.854rem;
+}
+
+h3 {
+  font-size: 4.236rem;
+}
+
+h4 {
+  font-size: 2.618rem;
+}
+
+h5 {
+  font-size: 1.618rem;
+}
+
+small, .text_small {
+  font-size: 0.618rem;
+}
+
+@media screen and (max-width: 600px) {
+  h1, h2, h3 {
+    font-size: 2.618rem;
+  }
+}
+
+.container {
+  margin: auto 1.25rem;
+}
+
+.image-strip {
+  height: 2rem;
+  background: url(/images/Untitled.png) center center/cover;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.skills ul {
+  text-align: center;
+}
+
+.skill {
+  display: inline-block;
+  background: #D4C329;
+  color: black;
+  padding: .25em .5em;
+  margin: .25em auto;
+  border-radius: 1.95em;
+}
+
+/*# sourceMappingURL=style.css.map */
