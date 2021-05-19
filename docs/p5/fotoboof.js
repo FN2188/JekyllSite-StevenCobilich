@@ -24,6 +24,8 @@ let STEER_MAGNITUDE = 0.01;
 function setup() {
  const canvas = createCanvas(640, 640);
  canvas.parent("sketch-container");
+ const w = canvas.parent().clientWidth;
+ resizeCanvas(w, w);
 
   for (let i = 0; i < numElements; i++) {
     let pos = createVector(random(width), random(height));
