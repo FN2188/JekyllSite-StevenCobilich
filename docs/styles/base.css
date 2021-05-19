@@ -116,6 +116,22 @@ small, .text_small {
   margin: auto 1.25rem;
 }
 
+.navlist {
+display: flex;
+font-size: .8rem;
+}
+
+.navlist li {
+padding-right: .618rem;
+font-size: .8rem;
+}
+
+.navbrand a {
+  color: #D4C329;
+  font-size: 1rem;
+}
+
+
 .image-strip {
   height: 2.618rem;
   background: url(/images/Atlantic.jpeg) center center/cover;
