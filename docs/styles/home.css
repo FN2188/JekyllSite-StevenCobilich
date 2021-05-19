@@ -19,6 +19,9 @@
   border-radius: 1.95em;
 }
 
+canvas {
+  width: 100%;
+}
 
 
 /*# sourceMappingURL=styles/home.css.map */
