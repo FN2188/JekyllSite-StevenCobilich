@@ -112,18 +112,27 @@ small, .text_small {
   }
 }
 
-.container {
-  margin: auto 1.25rem;
+header {
+  padding: .618rem 1.618rem;
+
 }
 
+main{
+padding: 1.618rem;
+}
 .navlist {
-display: flex;
-font-size: .8rem;
+  display: flex;
+  align-items: flex-end;
 }
 
 .navlist li {
-padding-right: .618rem;
-font-size: .8rem;
+  padding-right: .618rem;
+  font-size: .8rem;
+}
+
+.navlist li a {
+  font-size: .8rem;
+  text-decoration: none;
 }
 
 .navbrand a {
@@ -135,4 +144,5 @@ font-size: .8rem;
 .image-strip {
   height: 2.618rem;
   background: url(/images/Atlantic.jpeg) center center/cover;
+  margin-top: .618rem;
 }
