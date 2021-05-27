@@ -114,12 +114,12 @@ small, .text_small {
 
 header {
   padding: .618rem 1.618rem;
-
 }
 
-main{
-padding: 1.618rem;
+main {
+  padding: 1.618rem;
 }
+
 .navlist {
   display: flex;
   align-items: flex-end;
@@ -140,9 +140,40 @@ padding: 1.618rem;
   font-size: 1rem;
 }
 
-
 .image-strip {
   height: 2.618rem;
   background: url(/images/Atlantic.jpeg) center center/cover;
   margin-top: .618rem;
 }
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.skills ul {
+  text-align: justify;
+}
+
+.skill {
+  display: inline-block;
+  color: white;
+  padding: .25em .5em;
+  margin: .25em auto;
+  border-radius: 1.95em;
+}
+
+canvas {
+  width: 100%;
+}
+
+.bio {
+  text-align: justify;
+}
+
+.page > h3:first-of-type {
+  text-align: right;
+}
+
+/*# sourceMappingURL=style.css.map */
